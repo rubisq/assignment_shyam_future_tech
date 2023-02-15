@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-@main
+@available(iOS 14.0, *)
 struct AssignmentShyamFutureTechLLPApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
         }
     }
 }
